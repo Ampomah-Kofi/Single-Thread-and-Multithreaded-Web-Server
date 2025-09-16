@@ -1,0 +1,117 @@
+<!-- CS 538 Project 1 — Single-Threaded Web Server (Port 7755) -->
+<!-- HTML Testing File for Socket Programming Lab -->
+<!-- Author: Ampomah Kofi | CWID: 12504602 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UA CS Server Testing</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #ff6d29; /* UA Crimson-inspired orange */
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        background: white;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+      }
+      img {
+        width: 400px;
+        height: auto;
+        border-radius: 10px;
+      }
+      .login-box {
+        background: #fafafa;
+        border-radius: 10px;
+        padding: 30px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        width: 300px;
+        text-align: center;
+      }
+      .login-box h2 {
+        margin-bottom: 20px;
+        color: #8b0000; /* UA Dark Red */
+      }
+      input[type="text"],
+      input[type="password"] {
+        width: 90%;
+        padding: 10px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box; /* Better responsive fitting */
+      }
+      button {
+        background-color: #8b0000;
+        color: white;
+        padding: 10px 20px;
+        margin-top: 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        transition: background-color 0.3s; /* Smooth hover */
+      }
+      button:hover {
+        background-color: #a40000;
+      }
+      .info {
+        margin-top: 15px;
+        font-size: 14px;
+        color: #333;
+      }
+      .footer {
+        margin-top: 20px;
+        font-size: 12px;
+        color: #666;
+      }
+      .test-link {
+        margin-top: 10px;
+        font-size: 14px;
+      }
+      .test-link a {
+        color: #8b0000;
+        text-decoration: none;
+      }
+      .test-link a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="image.png" alt="UA Department of Computer Science" />
+      <div class="login-box">
+        <h2>UA CS SERVER TESTING</h2>
+        <form action="#" method="post">
+          <input type="text" placeholder="UA Username" required /><br />
+          <input type="password" placeholder="Password" required /><br />
+          <button type="submit">Login</button>
+        </form>
+        <div class="info">
+          <p><b>Student:</b> Ampomah Kofi</p>
+          <p><b>Course:</b> COMPUTER NETWORKING</p>
+          <p>CS Server Project 1 – Socket Programming Test</p>
+        </div>
+
+        <div class="footer">
+          <p>&copy; 2025 | For Academic Testing Purposes Only | Project Work</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
